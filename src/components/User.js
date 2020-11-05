@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Footer from './Footer';
 
 
 function deleteUser (id) {
@@ -38,6 +38,7 @@ const fetchItems = async () => {
 }
 
   return (
+    <>
 <div class="container">
   <div class="row">
     <div class="col ">
@@ -95,7 +96,10 @@ const fetchItems = async () => {
               </div>
              </div>
            </div>
+          
          </div>
+         <Footer />
+      </> 
   );
 }
 
