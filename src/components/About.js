@@ -33,7 +33,7 @@ function About() {
    javascriptu. Dizajn a štýly sú spravené v HTML, <br/>
    CSS a Bootstrape. Aplikácia posiela requesty<br/>
    na backend, kde sú následne spracované.<br/>
-   <a href="https://github.com/MartinBugar/ToDoList">
+   <a href="https://github.com/MartinBugar/MartyxTodoList">
     Celý zdrojový kód na stiahnutie  
    <i class='fab fa-github' />
    </a>
