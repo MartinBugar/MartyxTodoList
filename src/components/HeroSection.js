@@ -12,28 +12,31 @@ function HeroSection() {
       <h1>TodoList Example</h1>
       <p>Spring boot + ReactJs + MySql</p>
       <div className='hero-btns'>
+      <Link to='/user' > 
         <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
-        >
-              <Link to='/user' >
-                USERS
-              </Link>
+        >          
+                USERS 
+               
         </Button>
 
+        
+        </Link>
 
+        <Link to='/about' >
         <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
         >
 
-              <Link to='/about' >
-                ABOUT
-              </Link>
+                ABOUT            
         </Button>
+        </Link>
+
+
       </div>
     </div>
   );
