@@ -1,11 +1,13 @@
 .footer-container {
-  margin-top: 100px;
+  margin-top: auto;
+
   background-color: #242424;
   padding: 4rem 0 2rem 0;
   display: fixed;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .footer-subscription {

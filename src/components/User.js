@@ -39,7 +39,7 @@ const fetchItems = async () => {
 
   return (
     <>
-<div class="container">
+<div class="container" >
   <div class="row">
     <div class="col ">
       <div class="card">  
@@ -87,7 +87,7 @@ const fetchItems = async () => {
        ))}
      </table>
      <div class="col-3 text-left">
-     <Link to={`/user/create`}><a  class="btn btn-sm btn-primary">Create new Task <i class="far fa-edit ml-1"></i></a> </Link>
+     <Link to={`/user/create`}><a  class="btn btn-sm btn-primary">Create new User <i class="far fa-edit ml-1"></i></a> </Link>
      
      </div>
     
@@ -98,7 +98,7 @@ const fetchItems = async () => {
            </div>
           
          </div>
-         <Footer />
+      
       </> 
   );
 }
